@@ -216,6 +216,11 @@ img {
   padding-top: 10px;
 }
 
+.features-list-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -292,9 +297,6 @@ img {
   margin-bottom: 16px;
 }
 
-/* .works {
-  background-color: #f5f4fa;
-} */
 /* ==========PROJECT-LIST========== */
 
 .project-list {
@@ -309,18 +311,18 @@ img {
   padding-top: 30px;
 }
 .portfolio-list {
-  padding: 20px;
 }
 
 .project {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
+  margin-top: 50px;
   margin-bottom: 94px;
 }
 .project-element {
   width: 370px;
   margin-right: 30px;
+  margin-top: 30px;
 }
 .project-element:nth-child(3n) {
   margin-right: 0;
@@ -356,7 +358,6 @@ img {
   display: flex;
   margin-top: 94px;
   justify-content: center;
-  padding-bottom: 20px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
@@ -412,5 +413,4 @@ button {
   line-height: 1.19;
   text-decoration: none;
   display: block;
-  padding-top: 60px;
 }
