@@ -299,10 +299,14 @@ img {
 .project-img {
   padding-top: 30px;
 }
+.portfolio-list {
+  padding: 20px;
+}
 
 .project {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 34px;
   margin-bottom: 94px;
 }
 .project-element {
