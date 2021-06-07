@@ -35,6 +35,10 @@ img {
   display: block;
 }
 
+.list {
+  list-style: none;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -127,6 +131,11 @@ img {
 .contacts {
   display: flex;
   margin-left: auto;
+}
+
+.contact-list-icon {
+  width: 16px;
+  height: 12px;
 }
 
 .header-tel {
