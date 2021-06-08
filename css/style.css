@@ -408,7 +408,8 @@ button {
 
 /* ==========ПОСТОЯННЫЕ КЛИЕНТЫ========== */
 .customers {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .customers-list-icon {
   width: 106px;
