@@ -123,9 +123,21 @@ img {
 }
 
 .contacts-list-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   justify-content: center;
   align-items: center;
 }
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  fill: var(--accent-color);
+}
+
 .contacts-list-link:hover .contacts-list-icon,
 .contacts-list-link:focus .contacts-list-icon {
   fill: var(--accent-color);
