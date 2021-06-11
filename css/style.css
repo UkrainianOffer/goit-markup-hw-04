@@ -120,6 +120,7 @@ img {
 }
 .contacts-list-item {
   display: flex;
+  margin-right: 30px;
 }
 
 .contacts-list-link {
@@ -135,7 +136,7 @@ img {
 
 .contacts-list-link:hover,
 .contacts-list-link:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .contacts-list-link:hover .contacts-list-icon,
@@ -376,6 +377,10 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+
+.project-img:hover,
+.project-img:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -424,7 +429,8 @@ img {
   margin-right: 8px;
 }
 
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
